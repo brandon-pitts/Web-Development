@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    background-image: url("../img/dot-grid.png");
+    background-size: 50%;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    background-color: #882b39;
+}
+
+header nav {
+    text-align: right;
+    padding: 20px 20px 20px 0;
+}
+
+header nav a {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+
+.hero {
+    background-image: url("../img/hero.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 47.43vw;
+}
+
+h1 {
+    margin: 0;
+    width: 36%;
+    padding: 20px 0 0 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 6.2vw;
+    font-weight: bold;
+}
+
+
+
+.cta {
+    background-color: #882b39;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 3%;
+    grid-gap: 2%
+}
+
+
+
+
+.mainContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    padding: 3%;
+}
+
+h2 {
+    grid-column: 1 / span 2;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 10px;
+
+}
+
+
+pre {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#bodyTitle {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 36px;
+}
+
+.photoBotP {
+    background-color: #c29e7e;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+    padding: 3% 3% 0 3%;
+}
+
+.photoBotC {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.adText {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+blockquote {
+    color: #882b39;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 3.5vw;
+    font-weight: bold;
+    text-align: right;
+    margin: 25px;
+}
+
+footer {
+    background-color: #882b39;
+    text-align: center;
+    padding: 80px 0;
+}
+
+footer a {
+    background-color: #e8ddd3;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 45pt;
+    font-weight: bold;
+    color: #51422c;
+    text-decoration: none;
+    border: 3px solid #51422c;
+    padding: 20px 30px 16px 30px;
+    display: block;
+    width: 33%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 885px) {
+    h2 {
+       grid-column: 1;
+
+    }
+
+    .mainContent {
+        grid-template-columns: 1fr;
+    }
+}

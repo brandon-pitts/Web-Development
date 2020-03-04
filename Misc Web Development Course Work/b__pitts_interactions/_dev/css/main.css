@@ -1,0 +1,104 @@
+/* main.css */
+
+header {
+    color: white;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header h1{
+    font-size: 24pt;
+    margin: 15px 0px;
+    font-family: 'Palanquin', sans-serif;
+    font-weight: 300;
+}
+
+header nav {
+    text-align: right;
+    margin-top: 20px; 
+}
+
+
+a:link{
+    color: white;
+    text-decoration: none;
+    font-family: 'Palanquin', sans-serif;
+    font-weight: 400;
+    font-size: 16pt;
+    margin-left: 30px;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: #ff908a;
+}
+a:active{}
+
+#currentPage{
+    color: #ff908a;
+}
+
+main {
+    padding: 2em 0;
+}
+
+.hero1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 2em; 
+}
+
+
+.hero2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 2em; 
+}
+
+.hero3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2em; 
+}
+
+
+.blue {
+    background-color: #bee0e0;
+    height: 50vh;
+}
+
+.orange {
+    background-color: #ec9b4e;
+    height: 50vh;
+}
+
+.redish {
+    background-color: #d4755b;
+    height: 50vh;
+}
+
+.par3col{
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2em;
+    height: 30vw;
+    padding: 2em 0;
+}
+
+.square1{
+    background-image: url(../img/fishy.jpg);
+    background-size: cover;
+}
+
+.square2{
+    background-image: url(../img/meaty.jpg);
+    background-size: cover;
+}
+
+.square3{
+    background-image: url(../img/green.jpg);
+    background-size: cover;
+}

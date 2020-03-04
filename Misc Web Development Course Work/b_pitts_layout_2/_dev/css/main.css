@@ -1,0 +1,165 @@
+/* main.css */
+
+@font-face {
+    font-family: 'alegreyaregular';
+    src: url('../fonts/alegreya-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'alegreyabold';
+    src: url('../fonts/alegreya-bold-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('../fonts/bebasneue-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bebas_neuebold';
+    src: url('../fonts/bebasneue-bold-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #000000;
+
+}
+
+
+
+header img {
+    width: 15%;
+    padding: 10px 0px 10px 5%;
+
+
+}
+
+nav {
+    text-align: right;
+    margin-top: 7%;
+    margin-bottom: 5px;
+
+}
+
+nav a {
+    font-family: bebas_neueregular;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    margin-right: 30px;
+
+}
+
+.top {
+    padding: 2.5%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 20px;
+}
+
+.topText {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 25px;
+
+}
+
+h1 {
+    font-family: 'bebas_neuebold';
+    font-size: 43.32pt;
+}
+
+p {
+    font-family: 'alegreyaregular';
+    font-size: 14pt;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2.5%;
+    grid-row-gap: 20px;
+    grid-column-gap: 15px;
+}
+
+
+h2 {
+    margin-top: 2%;
+    margin-left: 2.5%;
+    font-size: 36pt;
+    font-family: 'bebas_neuebold';
+}
+
+blockquote {
+    position: relative;
+    padding: 4%;
+    font-family: 'alegreyabold';
+    font-size: 28px;
+    margin-left: 7vw;
+}
+
+
+.quoteMark {
+    font-size: 155.02pt;
+    position: absolute;
+    top: -110px;
+    left: -15px;
+    color: lightgray;
+    transform: rotate(200deg);
+    font-family: 'alegreyabold';
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 7.5vw auto;
+    background-color: #000000;
+    padding: 3%;
+    height: 10vw;
+}
+
+footer pre {
+    width: 10vw;
+    color: white;
+    font-family: 'bebas_neueregular';
+    font-size: 1.4vw;
+    padding: 3%;
+    border-left: solid 2px white;
+
+}
+
+footer img {
+    width: 15%;
+    margin-left: 81.5%;
+    padding: 1%;
+/*    margin-top: 2.5%;*/
+}
+
+@media only screen and (max-width: 600px) {
+    .top {
+        padding: 2.5%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 20px;
+    }
+    
+    .gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 2.5%;
+    grid-row-gap: 20px;
+    grid-column-gap: 15px;
+}
+    
+
+}
