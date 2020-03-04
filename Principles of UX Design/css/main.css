@@ -1,0 +1,230 @@
+/* main.css */
+
+header {
+    background-image: url(../img/bg.png);
+    height: 25px;
+    background-size: cover;
+}
+
+main {
+    margin: 0 10% 0 10%;
+}
+
+img {
+    z-index: -1;
+}
+
+.logo {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    font-size: 5vw;
+}
+
+#bigTen {
+    font-size: 15vw;
+    text-align: right;
+    letter-spacing: -3vw;
+    margin-right: 3vw;
+}
+
+.logo pre {
+    margin: 5% 0 0 0;
+}
+
+h1,
+h2,
+h3,
+pre {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.15em;
+}
+
+.hero img {
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 75%;
+}
+
+.hero p {
+    margin: 5% 0% 20% 0%;
+}
+
+.wrapper img {
+    width: 89%;
+    padding: 5%;
+}
+
+p,
+h3 {
+    text-align: center;
+    line-height: 1.15em;
+}
+
+.number {
+    font-size: 80vw;
+    opacity: 10%;
+    position: absolute;
+    z-index: 1;
+    left: 25%;
+    bottom: -10%;
+}
+
+#ten {
+    left: -10%;
+    bottom: -55%;
+}
+
+@media only screen and (max-width: 680px) {
+    .wrapper {
+        display: grid;
+        grid-template-areas:
+            1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20;
+    }
+
+    .image1 {
+        grid-area: 1;
+    }
+
+    .content1 {
+        grid-area: 2;
+    }
+
+    .image2 {
+        grid-area: 3;
+    }
+
+    .content2 {
+        grid-area: 4;
+    }
+
+    .image3 {
+        grid-area: 5;
+    }
+
+    .content3 {
+        grid-area: 6;
+    }
+
+    .image4 {
+        grid-area: 7;
+    }
+
+    .content4 {
+        grid-area: 8;
+    }
+
+    .image5 {
+        grid-area: 9;
+    }
+
+    .content5 {
+        grid-area: 10;
+    }
+
+    .image6 {
+        grid-area: 11;
+    }
+
+    .content6 {
+        grid-area: 12;
+    }
+
+    .image7 {
+        grid-area: 13;
+    }
+
+    .content7 {
+        grid-area: 14;
+    }
+
+    .image8 {
+        grid-area: 15;
+    }
+
+    .content8 {
+        grid-area: 16;
+    }
+
+    .image9 {
+        grid-area: 17;
+    }
+
+    .content {
+        grid-area: 18;
+    }
+
+    .image10 {
+        grid-area: 19;
+    }
+
+    .content10 {
+        grid-area: 20;
+    }
+
+    .wrapper div {
+        margin: 0 0 100px 0;
+    }
+}
+
+@media only screen and (min-width: 680px) {
+    header {
+        background-image: url(../img/bg.png);
+        height: 50px;
+        background-size: cover;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 5%;
+    }
+
+    p {
+        font-size: 1.3em;
+    }
+
+    .hero p {
+        margin: 5% 15% 10% 15%;
+    }
+
+
+    .rightAlign {
+        text-align: right;
+    }
+
+    .rightP {
+        padding: 0 0 0 30%;
+    }
+
+    .leftAlign {
+        text-align: left;
+    }
+
+    .leftP {
+        padding: 0 30% 0 0;
+    }
+
+    .wrapper img {
+        width: 80%;
+        padding: 5%;
+    }
+
+    .number {
+        font-size: 250pt;
+        top: -10%;
+        left: 35%;
+    }
+
+    #ten {
+        left: 20%;
+    }
+}
